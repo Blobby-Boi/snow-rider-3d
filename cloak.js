@@ -151,15 +151,6 @@ function addCss(){
     `;  
     document.getElementsByTagName('head')[0].appendChild(e);
 }
-function addBtnHome(){
-    var e = document.createElement('button');
-    e.className = 'in-game-button';
-    e.id = 'inGame';
-    e.innerHTML = `
-    <img src="https://ubg76.github.io/Ubg76.png" width="130px" height="35px" alt="Unblcoked Games 76">`;
-    document.getElementsByTagName('body')[0].appendChild(e);
-}
-
 
 function loadFirebase(){
     var  r = document.createElement("script");
